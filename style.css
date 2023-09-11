@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to left, darkblue, rgb(39, 39, 39)  );
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    height: 12vh;
+    color:  black;
+    font-family: 'Helvetica';
+    width: 100%;
+    background-image: linear-gradient(to right,  darkblue, rgb(0, 19, 129) );
+    padding-left: 20px;
+    border: 5px solid black;
+    line-height: 12vh;
+    position: fixed;
+    top: 0;
+}
+
+section.hero img{
+    width: 100%;
+}
+header nav .home{
+    flex-direction: row;
+    font-size: 5vh;
+    color: black;
+    width: 30vh;
+    display: flex;
+    cursor: default;
+   
+    /* background-color: red; */
+}
+section.container img{
+    width: 45vh;
+    height: 80%;
+    margin-right: 5vh;
+    box-shadow: 0 0 0.5vh 0.5vh #20243f;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+    width: 30vh;
+    font-size: 3vh;
+}
+nav a:hover{
+    color: white;
+    text-decoration: underline;
+}
+section.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: 100px;
+    height: 190vh;
+    margin-top: 40vh;
+    background-image: radial-gradient(black);
+    border-radius: 5vh;
+    color: rgb(255, 255, 199);
+    font-weight: bold;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+section.hero{
+    text-align: center;
+    align-items: center;
+    height: 2000px;
+    flex-direction: column;
+    border: 20px solid rgb(247, 247, 247);
+    display: flex;
+    justify-content: center;
+   
+} 
+
+section.container{
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+section.hero img{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+}
+div.atas{
+    border: 10px solid black;
+    border-radius: 250px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section.tulisan p{
+    width: 145vh;
+    height: auto;
+    letter-spacing: 2px;
+    font-size: 30px;
+    margin-bottom: 2vh;
+}
+section.tulisan h1{
+    margin-top: 2vh ;
+    width: 145vh;
+    height: auto;
+    font-size: 40px;
+}
+ 
+section.tulisan .twibbon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 10vh;
+    height: 15vh;
+    position: relative;
+    top: 600px ;
+    left: 200px;
+    /* margin-top: 600px;
+    margin-left: 200px; */
+}
+section.tulisan .twibbon a:hover{
+    color: cyan;
+    text-decoration: underline;
+}
+ section.tulisan .twibbon a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    width: 25vh;
+    font-weight: bold;
+    height: auto;
+}
+
+section.tulisan .twibbon img{
+    box-shadow: 0 0 0.5vh 0.5vh white;
+    width: 12.5vh;
+    height: 12.5vh;
+    margin: 0 auto;
+}
+div.row{
+    display: flex;
+    flex-direction: row;
+}

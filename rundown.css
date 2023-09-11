@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 0.25vh;
+}
+body{
+    background-image: linear-gradient(to left, darkblue, rgb(39, 39, 39)  );
+}
+header nav{
+    display: flex;
+    flex-direction: row;
+    /* grid-template-columns: auto auto auto; */
+    /* justify-content: center; */
+    /* text-align: center;
+    align-items: center; */
+    width: 100%;
+    height: 12vh;
+    color:  black;
+    font-family: 'Optima';
+    line-height: 12vh;
+    position: fixed;
+    top: 0;
+    background-image: linear-gradient(to right,  darkblue, rgb(0, 19, 129) );
+    border: 5px solid black;
+    /* border-radius: 100px; */
+    
+}
+
+header nav .rundown{
+    width: 30vh;
+    display: flex;
+    flex-direction: row;
+    font-size: 5vh;
+    color: black;
+    cursor: default;
+    
+}
+header nav a{
+    width: 30vh;
+    font-size: 3vh;
+    color: black;
+    text-decoration: none;
+    padding-left: 20px;
+}
+header nav a:hover{
+    color: dark;
+    text-decoration: underline;
+    color:white;
+}
+section.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 150vh;
+    background-color: darkblue;
+    border: 1vh solid black;
+    border-radius: 5vh;
+    color: white;
+    font-weight: bold;
+    font-family: 'Helvetica';
+    margin-top: 12vh;
+}
+
+section.container .rundown{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 1vh;
+}
+section.container .rundown .top, section.container .rundown .bottom{
+    display: grid;
+    box-shadow: 0 0 0.5vh 0.25vh black;
+    background-color: blue;
+    font-size: 1.5vh;
+}
+section.container .rundown .day-1, section.container .rundown .day-2{
+    display: grid;
+    grid-template-columns: auto auto auto auto
+}
+.title{
+    display: grid;
+    grid-template-columns: auto;
+    color: white;
+    background-color: darkblue;
+    border: 0.25vh solid black;
+}
+.name .box{
+    width: 75vh;
+    height: 2.5vh;
+    line-height: 1.5vh;
+    border: 0.25vh solid black;
+    padding: 4px;
+}
+.location .box{
+    width: 50vh;
+    height: 2.5vh;
+    line-height: 1.5vh;
+    border: 0.25vh solid black;
+    padding: 4px;
+}
+.time .box{
+    width: 25vh;
+    height: 2.5vh;
+    line-height: 1.5vh;
+    border: 0.25vh solid black;
+    padding: 4px;
+}
+div.pemisah{
+    display: flex;
+   gap: 50px;
+   flex-direction: column;
+}
